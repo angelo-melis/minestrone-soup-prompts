@@ -127,7 +127,7 @@ def pick_prompt_variant(prompt):
     new_dict = {}
 
     if not os.path.exists('./nsp_pantry.json'):
-        wget('https://raw.githubusercontent.com/WASasquatch/noodle-soup-prompts/main/nsp_pantry.json',
+        wget('https://raw.githubusercontent.com/angelo-melis/minestrone-soup-prompts/main/nsp_pantry.json',
              './nsp_pantry.json')
 
     if nspterminology is None:
